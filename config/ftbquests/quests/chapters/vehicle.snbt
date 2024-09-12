@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vehicle"
+	group: ""
+	id: "181864E343A9F0C5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5745B25E1629D3D3"
+			tasks: [
+				{
+					count: 64L
+					id: "2B607CB929BBE187"
+					item: { Count: 64, id: "create:track" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "24CFE2A49F4F1F5B"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4DB5AF00D3F935A1"
+					item: { Count: 2, id: "create:railway_casing" }
+					type: "item"
+				}
+			]
+			title: "Create Train"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "7C0F0AA2A54CA6F7"
+			tasks: [{
+				id: "64DA5A34FF5FB3F8"
+				item: "rftoolsbuilder:vehicle_builder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "6F6BF01B1178D273"
+			subtitle: "Vanilla not so sure ?"
+			tasks: [
+				{
+					count: 64L
+					id: "5212A2BA0817C2E4"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					id: "50BA9691AE07FC09"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "4EC5938BAE09BC15"
+					item: "botania:pool_minecart"
+					type: "item"
+				}
+				{
+					id: "0506D7E95B1A07E8"
+					item: {
+						Count: 1
+						id: "thermal:energy_minecart"
+						tag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C13DC36531A4A83"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+			]
+			title: "Vanilla Cart"
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Vehicle ?"
+}

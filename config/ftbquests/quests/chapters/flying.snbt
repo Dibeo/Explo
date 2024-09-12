@@ -1,0 +1,375 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flying"
+	group: ""
+	id: "56A556DD7E960705"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "73D376B2FA3E6494"
+			tasks: [{
+				id: "69F5CC13B91ECEB9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:angelring"
+					}
+				}
+				title: "Any #curios:angelring"
+				type: "item"
+			}]
+			title: "Angel ring"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "3A6B3E18840F9AF0"
+			tasks: [{
+				id: "54C37892796D9267"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35E7562D7E77490A"]
+			id: "69A9C73D3D047C6F"
+			tasks: [{
+				id: "62A697F4FA85DC03"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "apotheosis:flying"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "35E7562D7E77490A"
+			tasks: [{
+				id: "76BC1FAF46C4E0E5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "apotheosis:flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "apotheosis:long_flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:potion"
+								tag: {
+									Potion: "apotheosis:extra_long_flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:splash_potion"
+								tag: {
+									Potion: "apotheosis:flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:splash_potion"
+								tag: {
+									Potion: "apotheosis:long_flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:splash_potion"
+								tag: {
+									Potion: "apotheosis:extra_long_flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:lingering_potion"
+								tag: {
+									Potion: "apotheosis:flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:lingering_potion"
+								tag: {
+									Potion: "apotheosis:long_flying"
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:lingering_potion"
+								tag: {
+									Potion: "apotheosis:extra_long_flying"
+								}
+							}
+						]
+					}
+				}
+				title: "Flying Potion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "07634A5CC227277A"
+			tasks: [{
+				id: "0C62EE55532D829C"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "31112BB22DDFCC5D"
+			tasks: [{
+				id: "4D35F075F43E181D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "draconicevolution:item_chaotic_flight"
+							}
+							{
+								Count: 1b
+								id: "draconicevolution:item_wyvern_flight"
+							}
+							{
+								Count: 1b
+								id: "draconicevolution:item_draconic_flight"
+							}
+						]
+					}
+				}
+				title: "Flight Module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "6ED6EA82A218A04E"
+			tasks: [{
+				id: "1DE403885D2ACE7A"
+				item: "rftoolsutility:flight_module"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "387A65A870B91C28"
+			tasks: [{
+				id: "2B3115F9C25969FE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_jetpack:jetpack"
+								tag: {
+									Air: 900.0f
+								}
+							}
+							{
+								Count: 1b
+								id: "create_jetpack:netherite_jetpack"
+								tag: {
+									Air: 900.0f
+								}
+							}
+							{
+								Count: 1b
+								id: "create_sa:brass_jetpack_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_sa:andesite_jetpack_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create_sa:copper_jetpack_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:wood"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:stone"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:copper"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:bronze"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:iron"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:silver"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:electrum"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:gold"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:steel"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:diamond"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:platinum"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanism:module_jetpack_unit"
+							}
+							{
+								Count: 1b
+								id: "mekanism:jetpack_armored"
+							}
+							{
+								Count: 1b
+								id: "mekanism:jetpack"
+							}
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:emerald"
+									Throttle: 1.0d
+								}
+							}
+						]
+					}
+				}
+				title: "Jetpack"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "7835E9960CCF1F7A"
+			tasks: [{
+				id: "2411E50868B6B506"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:stable_footing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Flying"
+}
