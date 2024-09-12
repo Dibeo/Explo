@@ -1,4 +1,4 @@
-{
+/*{
 	"x": 2,
 	"y": 48,
 	"width": 98,
@@ -6,4 +6,4 @@
 	"langKey": "packmenu.custom_button",
 	"action": "OPEN_GUI",
 	"data": "SUPPORTERS"
-}
+}*/
