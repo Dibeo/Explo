@@ -181,16 +181,6 @@
 			y: -3.5d
 		}
 		{
-			id: "6ED6EA82A218A04E"
-			tasks: [{
-				id: "1DE403885D2ACE7A"
-				item: "rftoolsutility:flight_module"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -2.0d
-		}
-		{
 			id: "387A65A870B91C28"
 			tasks: [{
 				id: "2B3115F9C25969FE"

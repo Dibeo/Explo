@@ -1,1 +1,5 @@
-ServerEvents.recipes();
+/**
+ * @author dibeo
+ * 
+ */
+ ServerEvents.recipes((event) => {});

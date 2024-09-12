@@ -1,7 +1,5 @@
-// Listen to item tag event
-ServerEvents.tags('item', event => {
-    []
-    event.add('forge:cobblestone', 'minecraft:diorite')
-
-    
-  })
+/**
+ * @author dibeo
+ *
+ */
+ServerEvents.tags("item", (event) => {});
