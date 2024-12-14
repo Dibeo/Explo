@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensions"
+	group: ""
+	id: "11193D89E1264089"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "23D158476442F1CE"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "71340D2FF731649B"
+				title: "Aether"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "37324C394225429B"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: "undergarden:catalyst"
+				id: "19C4278744D30515"
+				title: "UnderGarden"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "0F542CA72B5981A6"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "42D74B45078E7E24"
+				title: "Everbright"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "116F4C5BE642E284"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "149FB548437B83F6"
+				title: "Everdawn"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "7C287AC9CCDED939"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "012220EF6A3D53FE"
+				title: "Twilight Forest"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "454C9784D8E29CF4"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6BA07321BE0E84C5"
+				title: "Nether"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "3CD29D2B7C902E6C"
+			tasks: [{
+				dimension: "lostcities:lostcity"
+				icon: "minecraft:skeleton_skull"
+				id: "1AD6DE771D393883"
+				title: "Lost City"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "39A0F03D8D94E14D"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				icon: "botania:natura_pylon"
+				id: "71F4A490BDE70D8B"
+				title: "Alfheim"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "01E15673BEE7ECA5"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:ice_lily"
+				id: "399745E45717A617"
+				title: "Otherside"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "34C1682861C90538"
+			tasks: [{
+				dimension: "mining_dimension:mining"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "09655D6CACB2B29E"
+				title: "Mining Dimension"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"I know it's not a true dimension."
+				""
+				"I'm just an Applied Energistics fanboy and i think it's not use enough."
+			]
+			id: "05928D24BDFB64D3"
+			tasks: [{
+				dimension: "ae2:spatial_storage"
+				icon: "ae2:spatial_pylon"
+				id: "5DC19970B60ED1AF"
+				title: "Spatial Storage"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "291A105F392274E2"
+			tasks: [
+				{
+					id: "4D06B2FB75179EFD"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "0"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "1"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "2"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "4"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "5"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "6"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "7"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "8"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "9"
+									}
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:digit_dimlet"
+									tag: {
+										name: "3"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EFB8E4287F51DED"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_terrain_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_attribute_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_feature_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_structure_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_biome_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_biome_controller_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_biome_category_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_block_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_fluid_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_time_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_tag_dimlet"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:empty_sky_dimlet"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19E3F989A3341F98"
+					item: "rftoolsdim:empty_dimension_tab"
+					type: "item"
+				}
+				{
+					id: "3BE0BB96499B84F3"
+					item: "rftoolsdim:dimension_builder"
+					type: "item"
+				}
+				{
+					id: "684D6B0261A3A070"
+					item: "rftoolsdim:dimlet_workbench"
+					type: "item"
+				}
+			]
+			title: "RFTools Dimensions"
+			x: 0.5d
+			y: -5.0d
+		}
+	]
+	title: "Dimensions"
+}

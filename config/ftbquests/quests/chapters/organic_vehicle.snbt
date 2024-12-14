@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "organic_vehicle"
+	group: ""
+	id: "2FB8896801629B66"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D4543960387EEE8"
+			tasks: [{
+				id: "2D024CD5B0C3C316"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D4543960387EEE8"]
+			id: "58A8E05F1C08B744"
+			tasks: [{
+				id: "6E5EA59A0B1F6E69"
+				item: "alexsmobs:straddle_saddle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "6978A750EE33874C"
+			tasks: [{
+				id: "323203D5D64063F8"
+				item: "deep_aether:aerwhale_saddle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "1E03A4BD0CAFA299"
+			tasks: [{
+				icon: "iceandfire:dragonegg_red"
+				id: "5793ED0C33E05BC7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_amythest"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_copper"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_black"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_electric"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_silver"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_sapphire"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_white"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_blue"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_gray"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_bronze"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_green"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_red"
+							}
+						]
+					}
+				}
+				title: "Dragon Egg"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "5D7BDD37BCA5DAAA"
+			tasks: [{
+				id: "38C7015537911068"
+				item: {
+					Count: 1
+					id: "minecraft:warped_fungus_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "138A8EDC9D7F6C61"
+			tasks: [{
+				id: "772C0091A22214F4"
+				item: "alexsmobs:chorus_on_a_stick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "55E6A2890F671D5D"
+			tasks: [{
+				id: "63DF041AEA5129E6"
+				item: {
+					Count: 1
+					id: "minecraft:carrot_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+	]
+	title: "Organic Vehicle"
+}

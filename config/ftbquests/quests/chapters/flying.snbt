@@ -18,7 +18,7 @@
 						value: "curios:angelring"
 					}
 				}
-				title: "Any #curios:angelring"
+				title: "Angel Ring"
 				type: "item"
 			}]
 			title: "Angel ring"
@@ -358,6 +358,16 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5B4AE243739F1AF5"
+			tasks: [{
+				id: "49743B4CD9AB6C0F"
+				item: "rftoolsutility:flight_module"
+				type: "item"
+			}]
+			x: 1.5d
 			y: -2.0d
 		}
 	]

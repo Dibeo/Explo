@@ -87,6 +87,16 @@
 			x: 1.0d
 			y: -2.0d
 		}
+		{
+			id: "4DDFDA7DA65F22AB"
+			tasks: [{
+				id: "440D4A99E2178F10"
+				item: "alexscaves:submarine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
 	]
 	title: "Vehicle ?"
 }
