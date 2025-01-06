@@ -6,6 +6,19 @@
 	id: "68C5044F505B5E53"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: [
+			"The quest are not here for you to do all of them."
+			""
+			"It's something that give you different possibility for important things in modded."
+		]
+		id: "0DC405F13C78B48A"
+		tasks: [{
+			id: "2863E178E647AC9B"
+			type: "checkmark"
+		}]
+		x: 1.5d
+		y: -4.0d
+	}]
 	title: "Beginning"
 }
