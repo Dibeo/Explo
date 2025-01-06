@@ -1,0 +1,293 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss"
+	group: ""
+	id: "4BCAE94DE4D6B528"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "039CAF15DDA0410F"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "3251A7E4CA6A03F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "7412C0FC8DA86378"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "164087D475FE0000"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "448B4A1D9572FE24"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "62869B1DF456E3E3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "7AAD67CDBE897FFB"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "4935A32C66429690"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "47AD146F1DA6F0ED"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "2F67E0328CE74E78"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "2FC0058CA14706DB"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "682BB51105542366"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["448B4A1D9572FE24"]
+			id: "74FC03B4249BF4D6"
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "255E929864CB6D38"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74FC03B4249BF4D6"]
+			id: "1D439B4473357359"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "0D96741513268610"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74FC03B4249BF4D6"]
+			id: "0D167018EAAADC42"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "5676F10B4A00705B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74FC03B4249BF4D6"]
+			id: "37CB2EF113866DF0"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "0202C86DDE55F08F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D439B4473357359"]
+			id: "5915803820F9D9B3"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "3BB8921782A0FBEF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D167018EAAADC42"]
+			id: "6E284F53CC1B0CB7"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "4663E6287DA72CDD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74FC03B4249BF4D6"]
+			id: "120478CF2559E2F8"
+			tasks: [{
+				entity: "minecraft:giant"
+				icon: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1B796E9236241706"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "2533925C2AAC2D7D"
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				icon: "alexscaves:gumball_pile"
+				id: "77A7F0B221D4478F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "3767F279ECAC4009"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1
+					id: "blue_skies:summoner_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "22E2F9B06031BD45"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "5254E9636B25EFDA"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1
+					id: "blue_skies:alchemist_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "21D74945D581E6EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "07E41EC063C9816E"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1
+					id: "blue_skies:starlit_crusher_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "65D98991040D5D67"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "3E4C208AF869E4C5"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1
+					id: "blue_skies:arachnarch_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "3AF213B00B2F046C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "42B03C98736EC2C7"
+			tasks: [{
+				entity: "alexscaves:notor"
+				icon: "alexscaves:notor_gizmo"
+				id: "30384FB1BA61A7B8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "3C7B86A1CCF96452"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:forsaken_idol"
+				id: "5FD65CF381610D17"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+	title: "Boss"
+}

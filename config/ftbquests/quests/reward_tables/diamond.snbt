@@ -1,0 +1,21 @@
+{
+	id: "1FC008C30686B412"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:diamond_block" }
+		{ count: 2, item: "minecraft:ancient_debris" }
+		{ count: 2, item: "minecraft:gold_block" }
+		{ count: 4, item: "minecraft:iron_block" }
+		{ count: 8, item: "minecraft:copper_block" }
+		{ count: 4, item: "create:zinc_block" }
+		{ item: "create_enchantment_industry:hyper_experience_bottle" }
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{ count: 64, item: "minecraft:oak_log" }
+		{ count: 128, item: "minecraft:cobblestone" }
+	]
+	title: "Diamond"
+}

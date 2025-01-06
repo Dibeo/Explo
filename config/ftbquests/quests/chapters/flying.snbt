@@ -342,6 +342,11 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"This does not make you fly."
+				""
+				"But it will easyfy your live as it will let the mining time be the same either you fly or not."
+			]
 			id: "7835E9960CCF1F7A"
 			tasks: [{
 				id: "2411E50868B6B506"

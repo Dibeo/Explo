@@ -1,0 +1,39 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wireless_energy"
+	group: ""
+	id: "53DD297DD8F87684"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7AF93B5E5AAE5DC6"
+			tasks: [
+				{
+					id: "18D16CC3F24512C1"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "201A3DDD3354F8EF"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "3A10CF284742AAEB"
+			tasks: [{
+				id: "149036BC6641E489"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "Wireless Energy"
+}

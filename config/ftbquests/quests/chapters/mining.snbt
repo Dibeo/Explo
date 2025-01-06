@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mining"
+	group: ""
+	id: "581B1437FF181507"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["One laser drill is the bare minimum you can (and should ) put more than one."]
+			id: "12A5751E4DD749D7"
+			tasks: [
+				{
+					id: "4A58B865435CF474"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					id: "259211F461975E90"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "3139A8FB8D2F55BE"
+			tasks: [{
+				id: "1421CEF98ED6D59A"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "49819A6BF07B22F7"
+			tasks: [
+				{
+					id: "3B92D06C7945F7BC"
+					item: "rftoolsbuilder:builder"
+					type: "item"
+				}
+				{
+					id: "699B457544BF3D2D"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shape_card_quarry"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shape_card_quarry_clear"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shape_card_quarry_clear_silk"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shape_card_quarry_fortune"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shape_card_quarry_silk"
+								}
+							]
+						}
+					}
+					title: "Shape Card"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "Mining"
+}

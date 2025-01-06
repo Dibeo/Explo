@@ -9,6 +9,12 @@
 	quests: [
 		{
 			id: "23D158476442F1CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2046F7713D0A85D1"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
@@ -21,6 +27,12 @@
 		}
 		{
 			id: "37324C394225429B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68980898B6F6B3EB"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				icon: "undergarden:catalyst"
@@ -33,6 +45,12 @@
 		}
 		{
 			id: "0F542CA72B5981A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04D838FA6046AD33"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				icon: "blue_skies:everbright_portal"
@@ -45,6 +63,12 @@
 		}
 		{
 			id: "116F4C5BE642E284"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "670958E077AF8B33"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				icon: "blue_skies:everdawn_portal"
@@ -57,6 +81,12 @@
 		}
 		{
 			id: "7C287AC9CCDED939"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "177A95B3D3BD5275"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				icon: "twilightforest:twilight_portal_miniature_structure"
@@ -69,6 +99,12 @@
 		}
 		{
 			id: "454C9784D8E29CF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0753B9DF8E4C62F2"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "6BA07321BE0E84C5"
@@ -80,6 +116,12 @@
 		}
 		{
 			id: "3CD29D2B7C902E6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F1F40E380EB206"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "lostcities:lostcity"
 				icon: "minecraft:skeleton_skull"
@@ -92,6 +134,12 @@
 		}
 		{
 			id: "39A0F03D8D94E14D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56D4A754AE6BF8AC"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "mythicbotany:alfheim"
 				icon: "botania:natura_pylon"
@@ -104,6 +152,12 @@
 		}
 		{
 			id: "01E15673BEE7ECA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76A664AE043720A2"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "deeperdarker:ice_lily"
@@ -116,6 +170,12 @@
 		}
 		{
 			id: "34C1682861C90538"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "673EB9137963909E"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "mining_dimension:mining"
 				icon: {
@@ -139,6 +199,12 @@
 				"I'm just an Applied Energistics fanboy and i think it's not use enough."
 			]
 			id: "05928D24BDFB64D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41EAEF765263DCCE"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "ae2:spatial_storage"
 				icon: "ae2:spatial_pylon"
@@ -151,6 +217,12 @@
 		}
 		{
 			id: "291A105F392274E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51EB126D7C2B7E97"
+				table_id: 2287838244425348114L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "4D06B2FB75179EFD"

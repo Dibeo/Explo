@@ -88,6 +88,7 @@
 			y: -2.0d
 		}
 		{
+			description: ["This can be found in certain structure."]
 			id: "4DDFDA7DA65F22AB"
 			tasks: [{
 				id: "440D4A99E2178F10"

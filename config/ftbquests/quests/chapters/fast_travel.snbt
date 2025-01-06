@@ -116,7 +116,45 @@
 				type: "item"
 			}]
 			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "30E0098AAD215052"
+			tasks: [
+				{
+					id: "0C9AEB61DFA47B34"
+					item: "draconicevolution:dislocator_pedestal"
+					type: "item"
+				}
+				{
+					id: "3BD7A33D60883AAC"
+					item: {
+						Count: 1
+						id: "draconicevolution:dislocator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["30E0098AAD215052"]
+			id: "430AE99495C528A1"
+			tasks: [{
+				id: "6181921D39B0BB67"
+				item: {
+					Count: 1
+					id: "draconicevolution:advanced_dislocator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
 		}
 	]
 	title: "Fast Travel"
