@@ -1,1 +1,1 @@
-![](packmenu/resources/assets/packmenu/textures/gui/background.png)
+![](packmenu/resources/assets/packmenu/textures/gui/logo_whitoutbackground.jpg)
